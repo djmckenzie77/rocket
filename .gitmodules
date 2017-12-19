@@ -1,3 +1,6 @@
 [submodule "externals/raspberrypi"]
 	path = externals/raspberrypi
 	url = git@bitbucket.org:gleisonstorto/raspberrypi.git
+[submodule "externals/altimu10-ahrs"]
+	path = externals/altimu10-ahrs
+	url = https://github.com/DavidEGrayson/minimu9-ahrs.git
