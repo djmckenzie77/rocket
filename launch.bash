@@ -9,8 +9,7 @@ fps="30"
 
 function clean_host {
     # kill all applications PC-side
-    sudo killall -q netcat
-    sudo killall -q mplayer
+    killall -q gst-launch-1.0
     # launch iptables, netcat and mplayer
     sudo netfilter-persistent reload
 }
@@ -18,15 +17,14 @@ function clean_host {
 function clean_remote {
     ssh $remote_ssh << EOF
         rm -f ${remote_dir}/${remote_script}
-        rm -f ${remote_dir}/netcat_fifo
-        sudo killall raspivid 
-        sudo killall netcat
+        killall raspivid 
 EOF
 }
 
 clean_host
 clean_remote
-netcat -l -p 5000 | mplayer -vf scale -zoom -xy 1280 -fps $fps -cache-min 50 -cache 1024 - &
+gst-launch-1.0 udpsrc udp://0.0.0.0:5000 ! h264parse ! avdec_h264 ! videoconvert ! \
+	       autovideosink sync=false &
 # copy remote files to RPi
 scp $remote_script $remote_ssh:~/${remote_dir}
 # set trap for raspivid
