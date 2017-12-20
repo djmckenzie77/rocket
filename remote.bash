@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# kill all applications RPi-side
-sudo killall -q raspivid
-sudo killall -q netcat
-
 # raspivid options
 raspivid_bin="/home/pi/raspberry/build/bin/raspivid"
 raspivid_log="raspivid${REMOTE_DATE}.log"
@@ -13,4 +9,8 @@ raspivid_opt="-md 5 -fps $FPS"
 # raspivid |-> $video_out (blocking)
 #          |-> udp stream (non-blocking)
 video_out="video${REMOTE_DATE}.h264"
-$raspivid_bin -t 0 $raspivid_opt -o $video_out -o2 udp://192.168.0.101:5000 &> $raspivid_log &
+$raspivid_bin -t 0 $raspivid_opt -o $video_out -o2 udp://192.168.0.101:$VIDEO_PORT &> \
+	      $raspivid_log &
+# altimu |-> udp stream (non-blocking)
+altimu_log="altimu${REMOTE_DATE}.log"
+minimu9-ahrs --output euler | netcat -v -u 192.168.0.101 $ALTIMU_PORT &> $altimu_log
