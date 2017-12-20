@@ -11,6 +11,7 @@ function clean_host {
     # kill all applications PC-side
     killall -q gst-launch-1.0
     killall -q MinIMU-9-test.py
+    killall -q netcat
     # launch iptables, netcat and mplayer
     sudo netfilter-persistent reload
 }
@@ -20,7 +21,6 @@ function clean_remote {
         rm -f ${remote_dir}/${remote_script}
         killall -q raspivid 
         killall -q minimu9-ahrs
-        killall -q netcat
 EOF
 }
 

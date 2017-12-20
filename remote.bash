@@ -11,6 +11,10 @@ raspivid_opt="-md 5 -fps $FPS"
 video_out="video${REMOTE_DATE}.h264"
 $raspivid_bin -t 0 $raspivid_opt -o $video_out -o2 udp://192.168.0.101:$VIDEO_PORT &> \
 	      $raspivid_log &
-# altimu |-> udp stream (non-blocking)
+
+# altimu   |-> $altimu_date (blocking)
+#          |-> udp stream (non-blocking)
 altimu_log="altimu${REMOTE_DATE}.log"
-minimu9-ahrs --output euler | netcat -v -u 192.168.0.101 $ALTIMU_PORT &> $altimu_log
+altimu_data="altimu${REMOTE_DATE}.tsv"
+minimu9-ahrs --output euler --output-file $altimu_data \
+	     --output-file-nb udp://192.168.0.101:$ALTIMU_PORT &> $altimu_log
