@@ -4,3 +4,6 @@
 [submodule "externals/altimu10-ahrs"]
 	path = externals/altimu10-ahrs
 	url = https://github.com/DavidEGrayson/minimu9-ahrs.git
+[submodule "externals/altimu10-gui"]
+	path = externals/altimu10-gui
+	url = https://github.com/pololu/minimu-9-ahrs-arduino.git
