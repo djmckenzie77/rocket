@@ -40,6 +40,8 @@ netcat -l -u 0.0.0.0 $altimu_port | python ./externals/altimu10-gui/MinIMU-9-tes
 					   -o $altimu_payload &> $altimu_log &
 # copy remote files to RPi
 scp $remote_script $remote_ssh:~/${remote_dir}
+rsync -rtvu ./externals/altimu10-ahrs/ $remote_ssh:~/${remote_dir}/altimu10-ahrs/
+rsync -rtvu ./externals/raspberrypi/ $remote_ssh:~/${remote_dir}/raspberrypi/
 # set trap for raspivid
 trap clean_remote SIGINT
 ssh $remote_ssh << EOF
