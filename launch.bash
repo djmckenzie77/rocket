@@ -23,8 +23,10 @@ EOF
 
 clean_host
 clean_remote
+gst_log="gst${current_date}.log"
 gst-launch-1.0 udpsrc udp://0.0.0.0:5000 ! h264parse ! avdec_h264 ! videoconvert ! \
-	       videoscale ! video/x-raw,width=1280,height=720 ! autovideosink sync=false &
+	       videoscale ! video/x-raw,width=1280,height=720 ! autovideosink sync=false &> \
+               $gst_log &
 # copy remote files to RPi
 scp $remote_script $remote_ssh:~/${remote_dir}
 # set trap for raspivid
