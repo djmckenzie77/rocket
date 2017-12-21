@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # compile tools
-make -C ./raspberrypi_build/ raspivid -j4
+#make -C ./raspberrypi_build/ raspivid -j4
 #make -C ./altimu10-ahrs
 # raspivid options
 raspivid_bin="/home/pi/rocket/raspberrypi/build/bin/raspivid"
 raspivid_log="raspivid${REMOTE_DATE}.log"
 # -br = brightness [0 to 100] -co = contrast [-100 to 100]; -sh = sharpness [-100 to 100]
-raspivid_opt="-md 5 -fps $FPS"
+raspivid_opt="-md 5 -fps $FPS -fl"
 
 # raspivid |-> $video_out (blocking)
 #          |-> udp stream (non-blocking)
