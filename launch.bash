@@ -18,8 +18,8 @@ function clean_host {
 
 function clean_remote {
     ssh $remote_ssh << EOF
-        rm -f ${remote_dir}/${remote_script}
-        killall -q raspivid 
+        killall -q raspivid
+        killall -q raspivid_tee
         killall -q minimu9-ahrs
 EOF
 }
@@ -39,12 +39,16 @@ altimu_payload="altimu_payload${current_date}.tsv"
 netcat -l -u 0.0.0.0 $altimu_port | python ./externals/altimu10-gui/MinIMU-9-test.py \
 					   -o $altimu_payload &> $altimu_log &
 # copy remote files to RPi
-scp $remote_script $remote_ssh:~/${remote_dir}
-rsync -rtvu ./externals/altimu10-ahrs/ $remote_ssh:~/${remote_dir}/altimu10-ahrs/
-rsync -rtvu ./externals/raspberrypi/ $remote_ssh:~/${remote_dir}/raspberrypi/
+rsync -tiu $remote_script $remote_ssh:~/${remote_dir}
+rsync_tee=$(rsync -tiu raspivid_tee.cpp $remote_ssh:~/${remote_dir})
+rsync_altimu=$(rsync -rtiu ./externals/altimu10-ahrs/ $remote_ssh:~/${remote_dir}/altimu10-ahrs/)
+rsync_raspberrypi=$(rsync -rtiu ./externals/raspberrypi/ $remote_ssh:~/${remote_dir}/raspberrypi/)
 # set trap for raspivid
 trap clean_remote SIGINT
 ssh $remote_ssh << EOF
+  export RSYNC_RASPBERRYPI="$rsync_raspberrypi"
+  export RSYNC_TEE="$rsync_tee"
+  export RSYNC_ALTIMU="$rsync_altimu"
   export REMOTE_DATE=$current_date
   export FPS=$fps
   export VIDEO_PORT=$video_port
