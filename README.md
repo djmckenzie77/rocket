@@ -28,14 +28,14 @@ executed binary in both machines.
 
 Available files:
 
-altimu*.tsv -> payload from altiMU-10 board       (local and remote)
-video*.h264 -> h264 video from raspivid binary    (remote)
-*.log       -> log files for each executed binary (local and remote)
+* altimu*.tsv -> payload from altiMU-10 board       (local and remote)
+* video*.h264 -> h264 video from raspivid binary    (remote)
+* *.log       -> log files for each executed binary (local and remote)
 
 The tsv file is structured as follows:
 
 timestamp  yaw  pitch  roll  acc_x  acc_y  acc_z  mag_x  mag_y  mag_z  altitude  temperature
 
-timestamp in seconds
-altitude relative to 1013.25hPa pressure (MSL)
-temperature in celsius
+* timestamp in seconds
+* altitude relative to 1013.25hPa pressure (MSL)
+* temperature in celsius
