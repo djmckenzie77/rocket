@@ -22,7 +22,7 @@ raspivid_opt="-t 0 -md 5 -fps $FPS -fl -br 60"
 # raspivid |-> $video_out (blocking)
 #          |-> udp stream (non-blocking)
 video_out="video${REMOTE_DATE}.h264"
-$raspivid_bin $raspivid_opt -o - | ./raspivid_tee $video_out udp://192.168.0.101:$VIDEO_PORT &> \
+$raspivid_bin $raspivid_opt -o - | ./raspivid_tee $video_out udp://$REMOTE_IP:$VIDEO_PORT &> \
 						  $raspivid_log &
 
 # altimu   |-> $altimu_date (blocking)
@@ -31,4 +31,4 @@ altimu_bin="/home/pi/rocket/altimu10-ahrs/minimu9-ahrs"
 altimu_log="altimu${REMOTE_DATE}.log"
 altimu_data="altimu${REMOTE_DATE}.tsv"
 $altimu_bin --output euler --output-file $altimu_data \
-   	    --output-file-nb udp://192.168.0.101:$ALTIMU_PORT &> $altimu_log
+   	    --output-file-nb udp://$REMOTE_IP:$ALTIMU_PORT &> $altimu_log

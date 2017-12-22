@@ -2,7 +2,9 @@
 
 # remote server
 current_date=$(date '+_%Y%m%d_%H%M%S')
-remote_ssh="pi@192.168.0.100"
+local_ip="192.168.0.101"
+remote_ip="192.168.0.100"
+remote_ssh="pi@$remote_ip"
 remote_script="remote.bash"
 remote_dir="rocket"
 fps="30"
@@ -46,6 +48,7 @@ rsync_raspberrypi=$(rsync -rtiu ./externals/raspberrypi/ $remote_ssh:~/${remote_
 # set trap for raspivid
 trap clean_remote SIGINT
 ssh $remote_ssh << EOF
+  export REMOTE_IP=$local_ip
   export RSYNC_RASPBERRYPI="$rsync_raspberrypi"
   export RSYNC_TEE="$rsync_tee"
   export RSYNC_ALTIMU="$rsync_altimu"
