@@ -17,7 +17,7 @@ It works with the following hardware:
 The first thing to do is connect your RPi to the camera module and the I2C pins to the AltiMU-10.
 These are the pinouts to be connected, supposing SA0 does not need to be driven (single AltiMU):
 
-![][https://bytebucket.org/gleisonstorto/rocket/raw/bf142b5c08f863a42a6f6aff41b80015281fbdd6/image/rpi_altimu.png]
+![](image/rpi_altimu.png)
 
 Before launching the main script, you may need to redefine the variables remote_ip, local_ip,
 altimu_port and video_port to match your network parameters in launch.bash.
