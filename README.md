@@ -40,6 +40,8 @@ The tsv file is structured as follows:
 timestamp  yaw  pitch  roll  acc_x  acc_y  acc_z  mag_x  mag_y  mag_z  altitude  temperature
 ```
 
+With the following remarks:
+
 * timestamp in seconds
 * altitude relative to 1013.25hPa pressure (MSL)
 * temperature in celsius
@@ -58,3 +60,7 @@ gst-launch-1.0 udpsrc udp://0.0.0.0:$video_port ! h264parse ! avdec_h264 ! video
 	       videoscale ! video/x-raw,width=1280,height=720 ! autovideosink sync=false &> \
                $gst_log &
 ```
+
+At 720p, a sample video is displayed as such:
+
+![](image/video_gui.png)
