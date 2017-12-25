@@ -14,7 +14,7 @@ It works with the following hardware:
 
 ### Quick start ###
 
-The first thing to do is connect your RPi to the camera module and the I2C pins to the AltiMU-10.
+The first thing to do is connect your RPi Zero to the camera module and the I2C pins to the AltiMU-10.
 These are the pinouts to be connected, supposing SA0 does not need to be driven (single AltiMU):
 
 ![](image/rpi_altimu.png)
@@ -28,14 +28,33 @@ executed binary in both machines.
 
 Available files:
 
+```
 * altimu*.tsv -> payload from altiMU-10 board       (local and remote)
 * video*.h264 -> h264 video from raspivid binary    (remote)
 * *.log       -> log files for each executed binary (local and remote)
+```
 
 The tsv file is structured as follows:
 
+```
 timestamp  yaw  pitch  roll  acc_x  acc_y  acc_z  mag_x  mag_y  mag_z  altitude  temperature
+```
 
 * timestamp in seconds
 * altitude relative to 1013.25hPa pressure (MSL)
 * temperature in celsius
+
+### Overview ###
+
+The informations from the IMU are displayed as follows:
+
+![](image/altimu_gui.png)
+
+Video sent from the RPi Camera is shown in 720p resolution to reduce workspace usage.
+Should you desire to change the resolution, in launch.bash the following line has to be edited:
+
+```
+gst-launch-1.0 udpsrc udp://0.0.0.0:$video_port ! h264parse ! avdec_h264 ! videoconvert ! \
+	       videoscale ! video/x-raw,width=1280,height=720 ! autovideosink sync=false &> \
+               $gst_log &
+```
