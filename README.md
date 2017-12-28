@@ -16,11 +16,11 @@ It works with the following hardware:
 
 This work would not be possible without the following contributions:
 
-* RaspberryPi application project, most notably Raspicam: [Raspicam repo](https://github.com/raspberrypi/userland/tree/master/host_applications/linux/apps/raspicam)
-* minimu9-ahrs project by David E Grayson: [minimu9-ahrs repo](https://github.com/DavidEGrayson/minimu9-ahrs)
-* minimu-9-ahrs-arduino project by Pololu: [minimu-9-ahrs-arduino repo](https://github.com/pololu/minimu-9-ahrs-arduino)
-* contributions from cpunk on RaspberryPi forums: [cpunk contribution](https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=200251)
-* contributions from Mark Setchell on StackOverflow: [Mark Setchell contribution](https://stackoverflow.com/questions/47862066/streaming-video-using-a-non-blocking-fifo-in-linux-bash)
+* RaspberryPi application project, most notably [Raspicam](https://github.com/raspberrypi/userland/tree/master/host_applications/linux/apps/raspicam) 
+* [minimu9-ahrs project](https://github.com/DavidEGrayson/minimu9-ahrs) by David E Grayson
+* [minimu-9-ahrs-arduino project](https://github.com/pololu/minimu-9-ahrs-arduino) by Pololu
+* [contributions from cpunk](https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=200251) on RaspberryPi forums
+* [contributions from Mark Setchell](https://stackoverflow.com/questions/47862066/streaming-video-using-a-non-blocking-fifo-in-linux-bash) on StackOverflow
 
 ### Quick start ###
 
