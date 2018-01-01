@@ -12,6 +12,16 @@ It works with the following hardware:
 * AltiMU-10 v5 (previous versions may work adding support to older altimeters)
 * Raspberry Pi Camera Module V2
 
+### Acknowledgements ###
+
+This work would not be possible without the following contributions:
+
+* RaspberryPi application project, most notably [Raspicam](https://github.com/raspberrypi/userland/tree/master/host_applications/linux/apps/raspicam) 
+* [minimu9-ahrs project](https://github.com/DavidEGrayson/minimu9-ahrs) by David E Grayson
+* [minimu-9-ahrs-arduino project](https://github.com/pololu/minimu-9-ahrs-arduino) by Pololu
+* [contributions from cpunk](https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=200251) on RaspberryPi forums
+* [contributions from Mark Setchell](https://stackoverflow.com/questions/47862066/streaming-video-using-a-non-blocking-fifo-in-linux-bash) on StackOverflow
+
 ### Quick start ###
 
 The first thing to do is connect your RPi Zero to the camera module and the I2C pins to the AltiMU-10.
