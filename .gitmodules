@@ -1,9 +1,9 @@
 [submodule "externals/raspberrypi"]
 	path = externals/raspberrypi
-	url = git@bitbucket.org:gleisonstorto/raspberrypi.git
+	url = git@github.com:gstorto/raspberrypi.git
 [submodule "externals/altimu10-ahrs"]
 	path = externals/altimu10-ahrs
-	url = https://github.com/DavidEGrayson/minimu9-ahrs.git
+	url = git@github.com:gstorto/altimu10-ahrs.git
 [submodule "externals/altimu10-gui"]
 	path = externals/altimu10-gui
-	url = https://github.com/pololu/minimu-9-ahrs-arduino.git
+	url = git@github.com:gstorto/altimu10-gui.git
