@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="193.00424mm"
-   height="193.00415mm"
-   viewBox="0 0 683.8733 683.87297"
+   width="238.75999mm"
+   height="179.35315mm"
+   viewBox="0 0 845.99998 635.50328"
    id="svg9787"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="project_logo.svg">
+   sodipodi:docname="project_logo.svg"
+   inkscape:export-filename="/home/gstorto/rocket/image/project_logo.svg.png"
+   inkscape:export-xdpi="263.20667"
+   inkscape:export-ydpi="263.20667">
   <defs
      id="defs9789">
     <clipPath
@@ -462,10 +465,21 @@
          x="28.410351"
          y="3.9499311" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4606">
+      <rect
+         style="fill:#ffffff;fill-opacity:0.5443038;stroke:none;stroke-width:1.35699999;stroke-linecap:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4608"
+         width="846"
+         height="635.5033"
+         x="3.1932874"
+         y="1.4643202" />
+    </clipPath>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3197"
-       id="linearGradient14496"
+       id="linearGradient4610"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(199.33,420.19)"
        x1="57.623001"
@@ -475,7 +489,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3197"
-       id="linearGradient14498"
+       id="linearGradient4612"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(199.33,420.19)"
        x1="57.879002"
@@ -485,7 +499,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3197"
-       id="linearGradient14500"
+       id="linearGradient4614"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(199.33,420.19)"
        x1="58.181999"
@@ -500,9 +514,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="462.84789"
-     inkscape:cy="469.13232"
+     inkscape:zoom="0.95022198"
+     inkscape:cx="597.47743"
+     inkscape:cy="416.02619"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -531,7 +545,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-25.253813,-1.9298267)">
+     transform="translate(-2.9293426,-1.185678)">
     <g
        transform="matrix(0.06918771,0,0,0.06918771,509.2809,161.98724)"
        inkscape:label="Layer 1"
@@ -541,355 +555,598 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-25.253813,-1.9298267)">
+     transform="translate(-2.9293426,-1.185678)">
     <g
-       id="g10831"
-       clip-path="url(#clipPath10896)"
-       transform="translate(0,-0.88388348)">
+       id="g10758"
+       transform="translate(-0.26394475,-0.27864222)"
+       clip-path="url(#clipPath4606)">
       <g
-         transform="translate(-0.26394475,0.60524126)"
-         id="g10758">
+         id="Sky">
+        <rect
+           id="rect10650"
+           width="1280"
+           height="720"
+           x="1"
+           y="0"
+           style="fill:#7ccce8" />
+      </g>
+      <g
+         display="none"
+         id="Sky__x28_gradient_x29_"
+         style="display:none">
+        <radialGradient
+           r="532.85999"
+           cx="178.12"
+           cy="129.10001"
+           gradientUnits="userSpaceOnUse"
+           id="SVGID_1_">
+          <stop
+             id="stop10654"
+             offset="0"
+             style="stop-color:#FFFFFF" />
+          <stop
+             id="stop10656"
+             offset=".3596"
+             style="stop-color:#9FD4FA" />
+          <stop
+             id="stop10658"
+             offset=".8775"
+             style="stop-color:#93D2FE" />
+          <stop
+             id="stop10660"
+             offset="1"
+             style="stop-color:#8FD2FF" />
+        </radialGradient>
+        <rect
+           id="rect10662"
+           display="inline"
+           width="1280"
+           x="1"
+           height="720"
+           y="0"
+           style="display:inline;fill:url(#SVGID_1_)" />
+      </g>
+      <g
+         id="Ground">
+        <path
+           id="path10665"
+           d="m 1309.1,548.64 -1308.3,0 c 0,0 -0.764,-17.558 0.236,-79.055 774.47,-13.5 701.23,-318.72 1308.3,-77.996 2,25.51 -0.2,157.06 -0.2,157.06 z"
+           inkscape:connector-curvature="0"
+           style="fill:#397243" />
+        <path
+           id="path10667"
+           d="m 1290.2,753.07 -1314.8,0 c 0,0 -0.778,-358.48 0.222,-419.98 423.28,-177.48 711.04,157.49 1314.8,208.49 -1,149.04 -0.2,211.49 -0.2,211.49 z"
+           inkscape:connector-curvature="0"
+           style="fill:#3b8c4b" />
+      </g>
+      <g
+         id="Clouds"
+         style="fill:#ffffff">
         <g
-           id="Sky">
-          <rect
-             style="fill:#7ccce8"
-             y="0"
-             x="1"
-             height="720"
-             width="1280"
-             id="rect10650" />
+           id="Cloud_3">
+          <ellipse
+             id="ellipse10671"
+             cx="458.54001"
+             ry="26.622999"
+             rx="35.248001"
+             cy="71.488998"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10673"
+             cx="503.04999"
+             ry="26.622999"
+             rx="35.248001"
+             cy="65.114998"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10675"
+             ry="33.748001"
+             rx="128.24001"
+             cx="493.79001"
+             cy="91.737999" />
+          <ellipse
+             id="ellipse10677"
+             cx="542.29999"
+             ry="26.622999"
+             rx="35.248001"
+             cy="74.488998"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10679"
+             cx="594.69"
+             ry="26.622999"
+             rx="35.248001"
+             cy="84.613998"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10681"
+             cx="400.79001"
+             ry="26.622999"
+             rx="35.248001"
+             cy="74.488998"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10683"
+             cx="375.04999"
+             ry="26.622999"
+             rx="35.248001"
+             cy="94.25"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10685"
+             cx="423.29001"
+             ry="26.622999"
+             rx="35.248001"
+             cy="111.24"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10687"
+             cx="474.29999"
+             ry="26.622999"
+             rx="35.248001"
+             cy="115.86"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10689"
+             cx="538.29999"
+             ry="26.622999"
+             rx="35.248001"
+             cy="111.24"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10691"
+             cx="573.53998"
+             ry="26.622999"
+             rx="35.248001"
+             cy="111.24"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10693"
+             ry="33.748001"
+             rx="128.24001"
+             cx="488.79001"
+             cy="91.25" />
         </g>
         <g
-           style="display:none"
-           id="Sky__x28_gradient_x29_"
-           display="none">
-          <radialGradient
-             id="SVGID_1_"
-             gradientUnits="userSpaceOnUse"
-             cy="129.10001"
-             cx="178.12"
-             r="532.85999">
-            <stop
-               style="stop-color:#FFFFFF"
-               offset="0"
-               id="stop10654" />
-            <stop
-               style="stop-color:#9FD4FA"
-               offset=".3596"
-               id="stop10656" />
-            <stop
-               style="stop-color:#93D2FE"
-               offset=".8775"
-               id="stop10658" />
-            <stop
-               style="stop-color:#8FD2FF"
-               offset="1"
-               id="stop10660" />
-          </radialGradient>
-          <rect
-             style="display:inline;fill:url(#SVGID_1_)"
-             y="0"
-             height="720"
-             x="1"
-             width="1280"
-             display="inline"
-             id="rect10662" />
+           id="Cloud_2">
+          <ellipse
+             id="ellipse10696"
+             cx="832.54999"
+             ry="26.622999"
+             rx="35.249001"
+             cy="146.75"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10698"
+             cx="877.06"
+             ry="26.622999"
+             rx="35.249001"
+             cy="140.37"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10700"
+             ry="33.748001"
+             rx="128.24001"
+             cx="867.79999"
+             cy="167" />
+          <ellipse
+             id="ellipse10702"
+             cx="916.29999"
+             ry="26.622999"
+             rx="35.249001"
+             cy="149.75"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10704"
+             cx="968.70001"
+             ry="26.622999"
+             rx="35.249001"
+             cy="159.87"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10706"
+             cx="774.79999"
+             ry="26.622999"
+             rx="35.248001"
+             cy="149.75"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10708"
+             cx="749.06"
+             ry="26.622999"
+             rx="35.249001"
+             cy="169.50999"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10710"
+             cx="797.29999"
+             ry="26.622999"
+             rx="35.249001"
+             cy="186.49001"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10712"
+             cx="848.29999"
+             ry="26.622999"
+             rx="35.249001"
+             cy="191.12"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10714"
+             cx="912.29999"
+             ry="26.622999"
+             rx="35.248001"
+             cy="186.5"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10716"
+             cx="947.54999"
+             ry="26.622999"
+             rx="35.248001"
+             cy="186.49001"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10718"
+             ry="33.748001"
+             rx="128.24001"
+             cx="862.79999"
+             cy="166.50999" />
         </g>
         <g
-           id="Ground">
+           id="Cloud_1">
+          <ellipse
+             id="ellipse10721"
+             cx="1167.3"
+             ry="26.622999"
+             rx="35.248001"
+             cy="62.616001"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10723"
+             cx="1211.8"
+             ry="26.622999"
+             rx="35.248001"
+             cy="56.242001"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10725"
+             ry="33.748001"
+             rx="128.24001"
+             cx="1202.5"
+             cy="82.864998" />
+          <ellipse
+             id="ellipse10727"
+             cx="1251"
+             ry="26.622999"
+             rx="35.248001"
+             cy="65.615997"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10729"
+             cx="1303.4"
+             ry="26.622999"
+             rx="35.248001"
+             cy="75.740997"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10731"
+             cx="1109.5"
+             ry="26.622999"
+             rx="35.248001"
+             cy="65.615997"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10733"
+             cx="1083.8"
+             ry="26.622999"
+             rx="35.248001"
+             cy="85.375999"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10735"
+             cx="1132"
+             ry="26.622999"
+             rx="35.249001"
+             cy="102.36"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10737"
+             cx="1183"
+             ry="26.622999"
+             rx="35.248001"
+             cy="106.99"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10739"
+             cx="1247"
+             ry="26.622999"
+             rx="35.248001"
+             cy="102.36"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10741"
+             cx="1282.3"
+             ry="26.622999"
+             rx="35.249001"
+             cy="102.36"
+             style="stroke:#a1c9e2" />
+          <ellipse
+             id="ellipse10743"
+             ry="33.748001"
+             rx="128.24001"
+             cx="1197.5"
+             cy="80.375999" />
+        </g>
+      </g>
+      <g
+         id="Sun">
+        <g
+           id="g10746">
+          <circle
+             id="circle10748"
+             r="85.495003"
+             cx="176.21001"
+             cy="125.6"
+             style="fill:#f4b71e" />
+          <circle
+             id="circle10750"
+             r="62.997002"
+             cx="177.21001"
+             cy="125.1"
+             style="fill:#f28420" />
+        </g>
+      </g>
+    </g>
+    <ellipse
+       ry="77.460197"
+       rx="148.49954"
+       cy="546.56335"
+       cx="194.34001"
+       id="ellipse4330"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       transform="matrix(3.7557261,0,0,3.7557261,-696.32045,-1317.116)"
+       inkscape:label="Layer 1"
+       id="layer1-5">
+      <path
+         d="m 248.62,506.77 0.1608,-23.557 -16.138,7.9162 -8.0291,4.5753 24.006,11.066 z"
+         style="color:#000000;fill:url(#linearGradient4148);fill-rule:evenodd;stroke-width:0"
+         sodipodi:nodetypes="ccccc"
+         id="path2218"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 206.83,503.79 0.17857,-24.286 23.929,12.5 -0.17857,23.781 -23.929,-11.995 z"
+         style="color:#000000;fill:url(#linearGradient4144);fill-rule:evenodd;stroke-width:0"
+         id="path2184"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 230.94,491.8 1.7118,-0.8852 -0.13393,23.915 -1.778,0.92984 0.20023,-23.959 z"
+         style="color:#000000;fill:url(#linearGradient4140);fill-rule:evenodd;stroke-width:0"
+         id="path2186"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 207.01,477.81 0,1.875 23.839,12.321 0.11002,-1.9436 -23.949,-12.253 z"
+         style="color:#000000;fill:url(#linearGradient4136);fill-rule:evenodd;stroke-width:0"
+         id="path2188"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 262.8,476.33 0,-1.7993 -31.843,15.558 -0.10833,1.9137 31.951,-15.673 z"
+         style="color:#000000;fill:url(#linearGradient4132);fill-rule:evenodd;stroke-width:0"
+         sodipodi:nodetypes="ccccc"
+         id="path2190"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 206.95,477.85 31.82,-15.026 23.991,11.743 -31.82,15.531 -23.991,-12.248 z"
+         style="color:#000000;fill:url(#linearGradient4128);fill-rule:evenodd;stroke-width:0"
+         id="path2192"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 262.7,476.33 0,23.434 -1.4967,0.70979 0.0446,-2.4253 -10.607,5.5558 -0.0631,2.1542 -1.9572,1.0025 0.1608,-23.557 13.918,-6.8737 4e-5,0 z"
+         style="color:#000000;fill:url(#linearGradient4124);fill-rule:evenodd;stroke-width:0"
+         sodipodi:nodetypes="cccccccccc"
+         id="path2198"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 250.41,484.31 0.037,4.6783 10.844,-5.7191 0.037,-4.4997 -10.918,5.5405 z"
+         style="color:#000000;fill:url(#linearGradient4120);fill-rule:evenodd;stroke-width:0"
+         id="path2220"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 250.5,490.59 0.037,4.6783 10.844,-5.7191 0.037,-4.4997 -10.918,5.5405 z"
+         style="color:#000000;fill:url(#linearGradient4116);fill-rule:evenodd;stroke-width:0"
+         id="use2222"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 250.44,497.17 0.037,4.6783 10.844,-5.7191 0.037,-4.4997 -10.918,5.5405 z"
+         style="color:#000000;fill:url(#linearGradient4112);fill-rule:evenodd;stroke-width:0"
+         id="use2224"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 261.26,497.98 0,2.4253 -2.1466,-1.2888 2.1466,-1.1364 z"
+         style="color:#000000;fill:url(#linearGradient4108);fill-rule:evenodd;stroke-width:0"
+         id="path11008"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 253.25,484.49 0,0.75485 c 0,0 0.74804,0.34582 1.5648,0.78643 0.44197,0.23842 3.9374,-1.9007 3.9374,-1.9007 l 0,-0.81185 -3.9327,1.998 -1.5696,-0.82674 z"
+         style="color:#000000;fill:url(#linearGradient4610);fill-rule:evenodd;stroke-width:0"
+         id="path12976"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 256.78,482.85 0,0.59977 0.44194,0.25254 0.41037,-0.50507 L 256.78,482.85 Z"
+         style="color:#000000;fill:url(#linearGradient4612);fill-rule:evenodd;stroke-width:0"
+         id="path14932"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 257.58,482.4 c 0,0 0.40158,0.3197 1.0639,0.86419 0.29642,0.24369 -3.6084,2.1909 -3.8382,2.0552 -1.0466,-0.61818 -1.4983,-0.86419 -1.4983,-0.86419 l 0.92992,-0.40051 c 0,0 0.3013,0.22446 0.77215,0.5294 0.22336,0.14466 2.7151,-1.137 2.5706,-1.2629 -0.36863,-0.32112 -0.80466,-0.51887 -0.80466,-0.51887 L 257.58007,482.4 Z"
+         style="color:#000000;fill:url(#linearGradient4614);fill-rule:evenodd;stroke-width:0"
+         id="path12974"
+         inkscape:connector-curvature="0" />
+      <use
+         x="0"
+         y="0"
+         width="512"
+         height="192"
+         transform="translate(0.31567,6.3135)"
+         xlink:href="#path12976"
+         id="use15913" />
+      <use
+         x="0"
+         y="0"
+         width="512"
+         height="192"
+         transform="translate(0.31567,6.3135)"
+         xlink:href="#path14932"
+         id="use15915" />
+      <use
+         x="0"
+         y="0"
+         width="512"
+         height="192"
+         transform="translate(0.31567,6.3135)"
+         xlink:href="#path12974"
+         id="use15917" />
+      <use
+         x="0"
+         y="0"
+         width="512"
+         height="192"
+         transform="translate(0.44194,12.879)"
+         xlink:href="#path12976"
+         id="use15927" />
+      <use
+         x="0"
+         y="0"
+         width="512"
+         height="192"
+         transform="translate(0.44194,12.879)"
+         xlink:href="#path14932"
+         id="use15929" />
+      <use
+         x="0"
+         y="0"
+         width="512"
+         height="192"
+         transform="translate(0.44194,12.879)"
+         xlink:href="#path12974"
+         id="use15931" />
+      <path
+         d="m 257.14,472.72 -0.17857,0.49107 0.17857,0.26786 -0.13393,0.13393 0.13393,0.17857 -0.17857,0.35714 -7.6562,3.7054 -0.13393,-1.5179 7.9688,-3.6161 z"
+         style="color:#000000;fill:url(#linearGradient4092);fill-rule:evenodd;stroke-width:0"
+         id="path6101"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 239.28,471.28 7.6004,-3.8557 10.36,5.3033 -7.7024,3.7728 -10.258,-5.2204 z"
+         style="color:#000000;fill:url(#linearGradient4088);fill-rule:evenodd;stroke-width:0"
+         id="path2203"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 239.33,471.29 0.0446,0.44643 -0.22321,0.17857 0.26785,0.17857 -0.22321,0.3125 0.22321,0.17857 -0.13392,0.26786 10.067,4.9554 -0.0223,-0.26786 0,-0.22321 -0.0893,-0.26786 0.22322,-0.13393 -0.26786,-0.17857 0.3125,-0.24554 -10.179,-5.2009 z"
+         style="color:#000000;fill:url(#linearGradient4084);fill-rule:evenodd;stroke-width:0"
+         id="path4153"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="layer1-6"
+       transform="matrix(1.4554671,0,0,1.4554671,-501.01638,56.808358)">
+      <g
+         id="g6312"
+         transform="translate(388.59398,97.199304)">
+        <path
+           style="fill:#4d4d4d"
+           id="path3637"
+           d="m 105.69961,194.09145 0,3 -31.177002,18 -0.368304,-2.85491 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#1a1a1a"
+           id="path3639"
+           d="m 48.53125,176.09375 2.5625,23 0.03125,0.0312 0,2.46875 23.40625,13.5 0,-3 -20.75,-11.96875 -2.46875,-22.625 -2.78125,-1.40625 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#666666"
+           id="path3641"
+           d="m 84.919608,182.09145 20.785002,12 -31.177002,18 -20.792892,-11.96843 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#4d4d4d"
+           id="path3643"
+           d="m 51.140608,177.59145 2.615238,22.54464 31.4124,-18.04464 -2.850638,-22.5 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#666666"
+           id="path3645"
+           d="m 79.719608,158.09145 2.692802,1.46843 -31.587375,18.25254 -2.282427,-1.72097 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#4d4d4d;stroke:none"
+           id="path3653"
+           d="m 91.399608,201.38145 -5.1962,-3 -5.1962,3 5.1962,3 5.1962,-3 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#333333;stroke:none"
+           id="path3657"
+           d="m 95.309608,191.09145 -10.392,-6 -25.981,15 10.392,6 25.981,-15 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+           id="path3655"
+           d="m 79.729608,158.09145 2.5938,1.5 2.5938,22.5 20.781002,12 0,3 -31.156002,18 -23.182786,-13.54464 -2.817014,-25.45536 31.188,-18 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:url(#linearGradient6187);fill-opacity:1;stroke:none"
+           id="path5411"
+           d="m 53.515107,179.00685 26.91829,-15.51577 1.94951,17.78227 -27.077055,15.42649 z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="g11315"
+       transform="matrix(0.02810294,0,0,0.02810294,185.34853,346.38087)">
+      <g
+         id="g11317">
+        <g
+           id="g11319" />
+        <g
+           id="g11327" />
+        <g
+           id="g11375"
+           transform="matrix(0.66112132,0.75027901,-0.75027901,0.66112132,385.44922,1050.8224)">
+          <g
+             id="g11323">
+            <path
+               inkscape:connector-curvature="0"
+               d="m 1622.612,744.679 c -343.005,-343.005 -901.116,-343.005 -1244.12,0 -67.902,67.902 -170.746,-34.798 -102.772,-102.772 400.897,-400.897 1048.712,-400.953 1449.664,0 67.901,67.901 -34.798,170.746 -102.772,102.772 z"
+               id="path11325" />
+          </g>
           <path
-             style="fill:#397243"
              inkscape:connector-curvature="0"
-             d="m 1309.1,548.64 -1308.3,0 c 0,0 -0.764,-17.558 0.236,-79.055 774.47,-13.5 701.23,-318.72 1308.3,-77.996 2,25.51 -0.2,157.06 -0.2,157.06 z"
-             id="path10665" />
-          <path
-             style="fill:#3b8c4b"
-             inkscape:connector-curvature="0"
-             d="m 1290.2,753.07 -1314.8,0 c 0,0 -0.778,-358.48 0.222,-419.98 423.28,-177.48 711.04,157.49 1314.8,208.49 -1,149.04 -0.2,211.49 -0.2,211.49 z"
-             id="path10667" />
-        </g>
-        <g
-           style="fill:#ffffff"
-           id="Clouds">
+             d="M 1398.129,969.162 C 1178.903,749.936 822.198,749.936 602.973,969.161 535.071,1037.063 432.227,934.363 500.201,866.389 c 276.731,-276.731 723.929,-276.769 1000.7,10e-4 67.901,67.901 -34.798,170.746 -102.772,102.772 z"
+             id="path11329" />
           <g
-             id="Cloud_3">
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="71.488998"
-               rx="35.248001"
-               ry="26.622999"
-               cx="458.54001"
-               id="ellipse10671" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="65.114998"
-               rx="35.248001"
-               ry="26.622999"
-               cx="503.04999"
-               id="ellipse10673" />
-            <ellipse
-               cy="91.737999"
-               cx="493.79001"
-               rx="128.24001"
-               ry="33.748001"
-               id="ellipse10675" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="74.488998"
-               rx="35.248001"
-               ry="26.622999"
-               cx="542.29999"
-               id="ellipse10677" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="84.613998"
-               rx="35.248001"
-               ry="26.622999"
-               cx="594.69"
-               id="ellipse10679" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="74.488998"
-               rx="35.248001"
-               ry="26.622999"
-               cx="400.79001"
-               id="ellipse10681" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="94.25"
-               rx="35.248001"
-               ry="26.622999"
-               cx="375.04999"
-               id="ellipse10683" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="111.24"
-               rx="35.248001"
-               ry="26.622999"
-               cx="423.29001"
-               id="ellipse10685" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="115.86"
-               rx="35.248001"
-               ry="26.622999"
-               cx="474.29999"
-               id="ellipse10687" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="111.24"
-               rx="35.248001"
-               ry="26.622999"
-               cx="538.29999"
-               id="ellipse10689" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="111.24"
-               rx="35.248001"
-               ry="26.622999"
-               cx="573.53998"
-               id="ellipse10691" />
-            <ellipse
-               cy="91.25"
-               cx="488.79001"
-               rx="128.24001"
-               ry="33.748001"
-               id="ellipse10693" />
-          </g>
-          <g
-             id="Cloud_2">
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="146.75"
-               rx="35.249001"
-               ry="26.622999"
-               cx="832.54999"
-               id="ellipse10696" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="140.37"
-               rx="35.249001"
-               ry="26.622999"
-               cx="877.06"
-               id="ellipse10698" />
-            <ellipse
-               cy="167"
-               cx="867.79999"
-               rx="128.24001"
-               ry="33.748001"
-               id="ellipse10700" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="149.75"
-               rx="35.249001"
-               ry="26.622999"
-               cx="916.29999"
-               id="ellipse10702" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="159.87"
-               rx="35.249001"
-               ry="26.622999"
-               cx="968.70001"
-               id="ellipse10704" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="149.75"
-               rx="35.248001"
-               ry="26.622999"
-               cx="774.79999"
-               id="ellipse10706" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="169.50999"
-               rx="35.249001"
-               ry="26.622999"
-               cx="749.06"
-               id="ellipse10708" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="186.49001"
-               rx="35.249001"
-               ry="26.622999"
-               cx="797.29999"
-               id="ellipse10710" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="191.12"
-               rx="35.249001"
-               ry="26.622999"
-               cx="848.29999"
-               id="ellipse10712" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="186.5"
-               rx="35.248001"
-               ry="26.622999"
-               cx="912.29999"
-               id="ellipse10714" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="186.49001"
-               rx="35.248001"
-               ry="26.622999"
-               cx="947.54999"
-               id="ellipse10716" />
-            <ellipse
-               cy="166.50999"
-               cx="862.79999"
-               rx="128.24001"
-               ry="33.748001"
-               id="ellipse10718" />
-          </g>
-          <g
-             id="Cloud_1">
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="62.616001"
-               rx="35.248001"
-               ry="26.622999"
-               cx="1167.3"
-               id="ellipse10721" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="56.242001"
-               rx="35.248001"
-               ry="26.622999"
-               cx="1211.8"
-               id="ellipse10723" />
-            <ellipse
-               cy="82.864998"
-               cx="1202.5"
-               rx="128.24001"
-               ry="33.748001"
-               id="ellipse10725" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="65.615997"
-               rx="35.248001"
-               ry="26.622999"
-               cx="1251"
-               id="ellipse10727" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="75.740997"
-               rx="35.248001"
-               ry="26.622999"
-               cx="1303.4"
-               id="ellipse10729" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="65.615997"
-               rx="35.248001"
-               ry="26.622999"
-               cx="1109.5"
-               id="ellipse10731" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="85.375999"
-               rx="35.248001"
-               ry="26.622999"
-               cx="1083.8"
-               id="ellipse10733" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="102.36"
-               rx="35.249001"
-               ry="26.622999"
-               cx="1132"
-               id="ellipse10735" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="106.99"
-               rx="35.248001"
-               ry="26.622999"
-               cx="1183"
-               id="ellipse10737" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="102.36"
-               rx="35.248001"
-               ry="26.622999"
-               cx="1247"
-               id="ellipse10739" />
-            <ellipse
-               style="stroke:#a1c9e2"
-               cy="102.36"
-               rx="35.249001"
-               ry="26.622999"
-               cx="1282.3"
-               id="ellipse10741" />
-            <ellipse
-               cy="80.375999"
-               cx="1197.5"
-               rx="128.24001"
-               ry="33.748001"
-               id="ellipse10743" />
-          </g>
-        </g>
-        <g
-           id="Sun">
-          <g
-             id="g10746">
-            <circle
-               style="fill:#f4b71e"
-               cy="125.6"
-               cx="176.21001"
-               r="85.495003"
-               id="circle10748" />
-            <circle
-               style="fill:#f28420"
-               cy="125.1"
-               cx="177.21001"
-               r="62.997002"
-               id="circle10750" />
+             id="g11331">
+            <path
+               inkscape:connector-curvature="0"
+               d="m 1173.647,1193.643 c -95.446,-95.446 -250.747,-95.447 -346.192,-10e-4 -67.902,67.902 -170.746,-34.798 -102.772,-102.772 152.115,-152.115 399.622,-152.116 551.738,0 67.89,67.89 -34.782,170.765 -102.774,102.773 z"
+               id="path11333" />
           </g>
         </g>
       </g>
     </g>
+    <ellipse
+       style="fill:#ffffff;fill-opacity:0.5443038;stroke:none;stroke-width:1.35699999;stroke-linecap:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1"
+       id="path4422"
+       cx="548.82068"
+       cy="322.33273"
+       rx="186.30214"
+       ry="167.68198" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     transform="translate(22.32447,0.74414874)">
     <g
        id="g10941"
-       transform="matrix(0.15302087,0,0,0.15302087,544.26763,161.03358)">
+       transform="matrix(0.30176176,0,0,0.2849193,548.36929,192.96031)">
       <path
          d="m 132.28935,657.99287 183.20472,-2.18228 C 335.6675,444.97076 401.40749,215.47604 215.64246,19.999529 34.99833,219.8412 100.14375,448.83706 132.28977,657.9933 Z"
          id="path3297"
@@ -984,7 +1241,7 @@
          stroke-linecap="null" />
     </g>
     <g
-       transform="matrix(-0.01352567,-0.00202454,0.00202454,-0.01352567,450.25238,324.96791)"
+       transform="matrix(-0.03065643,-0.00976535,0.00976535,-0.03065643,301.37974,421.3137)"
        id="g11382">
       <g
          id="g11384">
@@ -1018,7 +1275,7 @@
     </g>
     <g
        id="g14417"
-       transform="matrix(1.0426457,0,0,1.0426457,-27.124241,-0.28905417)">
+       transform="matrix(2.0561287,0,0,1.9413685,-578.43266,-107.41658)">
       <g
          inkscape:label="Ebene 1"
          id="layer1-9"
@@ -1494,240 +1751,6 @@
            id="path4322"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ccc" />
-      </g>
-    </g>
-    <ellipse
-       ry="69.603058"
-       rx="133.43655"
-       cy="482.99194"
-       cx="194.9913"
-       id="ellipse4330"
-       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <g
-       transform="matrix(3.0274274,0,0,3.0274274,-529.97214,-1035.7562)"
-       inkscape:label="Layer 1"
-       id="layer1-5">
-      <path
-         d="m 248.62,506.77 0.1608,-23.557 -16.138,7.9162 -8.0291,4.5753 24.006,11.066 z"
-         style="color:#000000;fill:url(#linearGradient4148);fill-rule:evenodd;stroke-width:0"
-         sodipodi:nodetypes="ccccc"
-         id="path2218"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 206.83,503.79 0.17857,-24.286 23.929,12.5 -0.17857,23.781 -23.929,-11.995 z"
-         style="color:#000000;fill:url(#linearGradient4144);fill-rule:evenodd;stroke-width:0"
-         id="path2184"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 230.94,491.8 1.7118,-0.8852 -0.13393,23.915 -1.778,0.92984 0.20023,-23.959 z"
-         style="color:#000000;fill:url(#linearGradient4140);fill-rule:evenodd;stroke-width:0"
-         id="path2186"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 207.01,477.81 0,1.875 23.839,12.321 0.11002,-1.9436 -23.949,-12.253 z"
-         style="color:#000000;fill:url(#linearGradient4136);fill-rule:evenodd;stroke-width:0"
-         id="path2188"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 262.8,476.33 0,-1.7993 -31.843,15.558 -0.10833,1.9137 31.951,-15.673 z"
-         style="color:#000000;fill:url(#linearGradient4132);fill-rule:evenodd;stroke-width:0"
-         sodipodi:nodetypes="ccccc"
-         id="path2190"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 206.95,477.85 31.82,-15.026 23.991,11.743 -31.82,15.531 -23.991,-12.248 z"
-         style="color:#000000;fill:url(#linearGradient4128);fill-rule:evenodd;stroke-width:0"
-         id="path2192"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 262.7,476.33 0,23.434 -1.4967,0.70979 0.0446,-2.4253 -10.607,5.5558 -0.0631,2.1542 -1.9572,1.0025 0.1608,-23.557 13.918,-6.8737 4e-5,0 z"
-         style="color:#000000;fill:url(#linearGradient4124);fill-rule:evenodd;stroke-width:0"
-         sodipodi:nodetypes="cccccccccc"
-         id="path2198"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 250.41,484.31 0.037,4.6783 10.844,-5.7191 0.037,-4.4997 -10.918,5.5405 z"
-         style="color:#000000;fill:url(#linearGradient4120);fill-rule:evenodd;stroke-width:0"
-         id="path2220"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 250.5,490.59 0.037,4.6783 10.844,-5.7191 0.037,-4.4997 -10.918,5.5405 z"
-         style="color:#000000;fill:url(#linearGradient4116);fill-rule:evenodd;stroke-width:0"
-         id="use2222"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 250.44,497.17 0.037,4.6783 10.844,-5.7191 0.037,-4.4997 -10.918,5.5405 z"
-         style="color:#000000;fill:url(#linearGradient4112);fill-rule:evenodd;stroke-width:0"
-         id="use2224"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 261.26,497.98 0,2.4253 -2.1466,-1.2888 2.1466,-1.1364 z"
-         style="color:#000000;fill:url(#linearGradient4108);fill-rule:evenodd;stroke-width:0"
-         id="path11008"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 253.25,484.49 0,0.75485 c 0,0 0.74804,0.34582 1.5648,0.78643 0.44197,0.23842 3.9374,-1.9007 3.9374,-1.9007 l 0,-0.81185 -3.9327,1.998 -1.5696,-0.82674 z"
-         style="color:#000000;fill:url(#linearGradient14496);fill-rule:evenodd;stroke-width:0"
-         id="path12976"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 256.78,482.85 0,0.59977 0.44194,0.25254 0.41037,-0.50507 L 256.78,482.85 Z"
-         style="color:#000000;fill:url(#linearGradient14498);fill-rule:evenodd;stroke-width:0"
-         id="path14932"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 257.58,482.4 c 0,0 0.40158,0.3197 1.0639,0.86419 0.29642,0.24369 -3.6084,2.1909 -3.8382,2.0552 -1.0466,-0.61818 -1.4983,-0.86419 -1.4983,-0.86419 l 0.92992,-0.40051 c 0,0 0.3013,0.22446 0.77215,0.5294 0.22336,0.14466 2.7151,-1.137 2.5706,-1.2629 -0.36863,-0.32112 -0.80466,-0.51887 -0.80466,-0.51887 L 257.58007,482.4 Z"
-         style="color:#000000;fill:url(#linearGradient14500);fill-rule:evenodd;stroke-width:0"
-         id="path12974"
-         inkscape:connector-curvature="0" />
-      <use
-         x="0"
-         y="0"
-         width="512"
-         height="192"
-         transform="translate(0.31567,6.3135)"
-         xlink:href="#path12976"
-         id="use15913" />
-      <use
-         x="0"
-         y="0"
-         width="512"
-         height="192"
-         transform="translate(0.31567,6.3135)"
-         xlink:href="#path14932"
-         id="use15915" />
-      <use
-         x="0"
-         y="0"
-         width="512"
-         height="192"
-         transform="translate(0.31567,6.3135)"
-         xlink:href="#path12974"
-         id="use15917" />
-      <use
-         x="0"
-         y="0"
-         width="512"
-         height="192"
-         transform="translate(0.44194,12.879)"
-         xlink:href="#path12976"
-         id="use15927" />
-      <use
-         x="0"
-         y="0"
-         width="512"
-         height="192"
-         transform="translate(0.44194,12.879)"
-         xlink:href="#path14932"
-         id="use15929" />
-      <use
-         x="0"
-         y="0"
-         width="512"
-         height="192"
-         transform="translate(0.44194,12.879)"
-         xlink:href="#path12974"
-         id="use15931" />
-      <path
-         d="m 257.14,472.72 -0.17857,0.49107 0.17857,0.26786 -0.13393,0.13393 0.13393,0.17857 -0.17857,0.35714 -7.6562,3.7054 -0.13393,-1.5179 7.9688,-3.6161 z"
-         style="color:#000000;fill:url(#linearGradient4092);fill-rule:evenodd;stroke-width:0"
-         id="path6101"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 239.28,471.28 7.6004,-3.8557 10.36,5.3033 -7.7024,3.7728 -10.258,-5.2204 z"
-         style="color:#000000;fill:url(#linearGradient4088);fill-rule:evenodd;stroke-width:0"
-         id="path2203"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 239.33,471.29 0.0446,0.44643 -0.22321,0.17857 0.26785,0.17857 -0.22321,0.3125 0.22321,0.17857 -0.13392,0.26786 10.067,4.9554 -0.0223,-0.26786 0,-0.22321 -0.0893,-0.26786 0.22322,-0.13393 -0.26786,-0.17857 0.3125,-0.24554 -10.179,-5.2009 z"
-         style="color:#000000;fill:url(#linearGradient4084);fill-rule:evenodd;stroke-width:0"
-         id="path4153"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="layer1-6"
-       transform="matrix(1.1106395,0,0,1.1106395,-344.7378,94.667251)">
-      <g
-         id="g6312"
-         transform="translate(388.59398,97.199304)">
-        <path
-           style="fill:#4d4d4d"
-           id="path3637"
-           d="m 105.69961,194.09145 0,3 -31.177002,18 -0.368304,-2.85491 z"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:#1a1a1a"
-           id="path3639"
-           d="m 48.53125,176.09375 2.5625,23 0.03125,0.0312 0,2.46875 23.40625,13.5 0,-3 -20.75,-11.96875 -2.46875,-22.625 -2.78125,-1.40625 z"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:#666666"
-           id="path3641"
-           d="m 84.919608,182.09145 20.785002,12 -31.177002,18 -20.792892,-11.96843 z"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:#4d4d4d"
-           id="path3643"
-           d="m 51.140608,177.59145 2.615238,22.54464 31.4124,-18.04464 -2.850638,-22.5 z"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:#666666"
-           id="path3645"
-           d="m 79.719608,158.09145 2.692802,1.46843 -31.587375,18.25254 -2.282427,-1.72097 z"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:#4d4d4d;stroke:none"
-           id="path3653"
-           d="m 91.399608,201.38145 -5.1962,-3 -5.1962,3 5.1962,3 5.1962,-3 z"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:#333333;stroke:none"
-           id="path3657"
-           d="m 95.309608,191.09145 -10.392,-6 -25.981,15 10.392,6 25.981,-15 z"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-           id="path3655"
-           d="m 79.729608,158.09145 2.5938,1.5 2.5938,22.5 20.781002,12 0,3 -31.156002,18 -23.182786,-13.54464 -2.817014,-25.45536 31.188,-18 z"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:url(#linearGradient6187);fill-opacity:1;stroke:none"
-           id="path5411"
-           d="m 53.515107,179.00685 26.91829,-15.51577 1.94951,17.78227 -27.077055,15.42649 z"
-           inkscape:connector-curvature="0" />
-      </g>
-    </g>
-    <g
-       id="g11315"
-       transform="matrix(0.01367635,0,0,0.01367635,178.81696,341.4395)">
-      <g
-         id="g11317">
-        <g
-           id="g11319" />
-        <g
-           id="g11327" />
-        <g
-           id="g11375"
-           transform="matrix(0.66112132,0.75027901,-0.75027901,0.66112132,385.44922,1050.8224)">
-          <g
-             id="g11323">
-            <path
-               inkscape:connector-curvature="0"
-               d="m 1622.612,744.679 c -343.005,-343.005 -901.116,-343.005 -1244.12,0 -67.902,67.902 -170.746,-34.798 -102.772,-102.772 400.897,-400.897 1048.712,-400.953 1449.664,0 67.901,67.901 -34.798,170.746 -102.772,102.772 z"
-               id="path11325" />
-          </g>
-          <path
-             inkscape:connector-curvature="0"
-             d="M 1398.129,969.162 C 1178.903,749.936 822.198,749.936 602.973,969.161 535.071,1037.063 432.227,934.363 500.201,866.389 c 276.731,-276.731 723.929,-276.769 1000.7,10e-4 67.901,67.901 -34.798,170.746 -102.772,102.772 z"
-             id="path11329" />
-          <g
-             id="g11331">
-            <path
-               inkscape:connector-curvature="0"
-               d="m 1173.647,1193.643 c -95.446,-95.446 -250.747,-95.447 -346.192,-10e-4 -67.902,67.902 -170.746,-34.798 -102.772,-102.772 152.115,-152.115 399.622,-152.116 551.738,0 67.89,67.89 -34.782,170.765 -102.774,102.773 z"
-               id="path11333" />
-          </g>
-        </g>
       </g>
     </g>
   </g>
