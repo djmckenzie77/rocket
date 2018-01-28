@@ -12,6 +12,8 @@ It works with the following hardware:
 * AltiMU-10 v5 (previous versions may work adding support to older altimeters)
 * Raspberry Pi Camera Module V2
 
+For further details regarding design and implementation: [hackster.io project](https://www.hackster.io/gleisonstorto/video-imu-from-model-rocket-to-base-station-gui-via-wifi-3956c6)
+
 ### Acknowledgements ###
 
 This work would not be possible without the following contributions:
